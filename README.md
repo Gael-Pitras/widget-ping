@@ -1,28 +1,29 @@
-# Widget Réseau avec Tkinter
+# Network Widget with Tkinter
 
 ## Description
 
-Ce projet est un widget réseau construit en utilisant Python et la bibliothèque Tkinter. Le widget affiche en temps réel des statistiques d'utilisation du réseau et de la mémoire sur votre ordinateur. De plus, le widget est déplaçable sur l'écran et reste toujours en premier plan.
+This project is a network widget built using Python and the Tkinter library. The widget displays real-time network and memory usage statistics on your computer. Additionally, the widget is movable on the screen and always stays on top.
 
-## Fonctionnalités
+## Features
 
-- **Ping**: Affiche le temps de réponse en millisecondes lors d'une requête vers Google.
-- **Utilisation de la Mémoire**: Affiche le pourcentage d'utilisation de la mémoire vive.
-- **Déplaçable**: Le widget peut être déplacé sur l'écran.
-- **Toujours en Premier Plan**: Le widget reste toujours en premier plan des autres applications.
+- **Ping**: Displays the response time in milliseconds when pinging Google.
+- **Memory Usage**: Shows the percentage of RAM usage.
+- **Movable**: The widget can be moved around the screen.
+- **Always on Top**: The widget always stays on top of other applications.
 
-## Dépendances
+## Dependencies
 
-Ce projet dépend des packages suivants:
+This project depends on the following packages:
 
 - Python 3.x
-- Tkinter (intégré dans la bibliothèque standard Python)
+- Tkinter (built into the standard Python library)
 - pythonping
 - psutil
 
 ## Installation
 
-### Installation des Dépendances
+### Installing Dependencies
 
-```bash
+\`\`\`bash
 pip install pythonping psutil
+\`\`\`
