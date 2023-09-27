@@ -5,7 +5,7 @@ import psutil
 # Variables globales pour le déplacement
 drag_data = {"x": 0, "y": 0, "widget": None}
 root = None  # Déclaration de root comme variable globale
-
+ 
 
 def get_network_usage():
     # Obtenir les statistiques d'utilisation du réseau
